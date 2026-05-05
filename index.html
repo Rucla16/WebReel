@@ -16,4 +16,44 @@
             </nav>
             <h1 id="titulo">Cómo crear una interfaz en TypeScript</h1>
         </header>
+        <main>
+            
+            <section id="video-container">
+                
+                <video id="MiVideo" poster="assets/img/poster.png">
+                    <source src="assets/video/video.mp4" type="video/mp4">
+                    
+                </video>
+
+                
+                <div class="Controles">
+                    <button id="Play">Reproducir</button>
+                    <button id="Pause">Pausar</button>
+                    <button id="Mute">Silenciar</button>
+                    <input type="range" id="VolumeBar" min="0" max="1" step="0.1" value="1">
+                </div>
+            </section>
+
+            
+            <section id="Capitulos">
+                <h2 id="TituloCap">Highlights del video</h2>
+                <button class="chapter-btn" data-time="0">Minuto 0 - Inicio</button>
+                <button class="chapter-btn" data-time="60">Minuto 1 - Creando la Interfaz</button>
+                <button class="chapter-btn" data-time="120">Minuto 2 - Objeto1</button>
+                <button class="chapter-btn" data-time="180">Minuto 3 - Objeto2</button>
+                <button class="chapter-btn" data-time="240">Minuto 4 - Ejecutando en la Terminal</button>
+            </section>
+
+            
+            <section id="Comentarios">
+                <h2 id="TituloCom">Comentarios</h2>
+                <form id="Formulario">
+                    <input type="text" id="Nombre" placeholder="Tu nombre..." required>
+                    <textarea id="Comentario" placeholder="Escribe tu comentario..." required></textarea>
+                    <button type="submit" id="EnviarFormulario">Enviar</button>
+                </form>
+                <p id="mensajito">Los comentarios se guardan automaticamente en el LocalStorage ;)</p>
+            </section>
+
+        </main>
     </body>
