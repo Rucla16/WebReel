@@ -25,6 +25,3 @@ Tengo un solo archivo CSS en el cual le doy estilo a ambos HTML, le he dado un u
 Tengo 3 archivos JS, uno se llama main.js y es donde tengo creada la clase del reproductor del video con todas sus funciones, también tengo creadas las funciones de los botones de reproduccion, de los botones de los highlights, de la persistencia en el sessionStorage para que se guarden los segundos del video y al hacer refresh en la página se pueda reproducir des del minuto en el que se quedó guardado y por último la de los comentarios, para que estos se guarden en el LocalStorage. Tengo el api.js en el que hago el fetch a la api de anime y para cargar la imagen de Gojo y por último tengo el storage.js que es el que uso para exportar al main.js las funciones del reproductor de video, del reproductor de audio y del almacenamiento de los comentarios.
 ---
 
-- Gravat i editat per l'alumne/a (es permet narració en off o càmera).
-- Format exportat: MP4 (H.264) + versió comprimida per web (WebM opcional per puntuació extra).
-- Llicència explícita declarada per tots els recursos (música, imatges, fonts).
